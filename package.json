@@ -1,0 +1,7 @@
+{
+  "name": "playground",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
