@@ -5,7 +5,7 @@
     "todo-list": "json-server --watch todo-list/db.json"
   },
   "exports": {
-    "./todo-list": "./todo-list"
+    "./todo-list": "./todo-list/schema.ts"
   },
   "dependencies": {
     "json-server": "0.17.4"

@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "bun --filter @shared/api todo-list & vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@shared/api": "workspace:*",
     "vue": "^3.5.12"
   },
   "devDependencies": {
