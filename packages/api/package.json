@@ -1,0 +1,13 @@
+{
+  "name": "@shared/api",
+  "private": true,
+  "scripts": {
+    "todo-list": "json-server --watch todo-list/db.json"
+  },
+  "exports": {
+    "./todo-list": "./todo-list"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
