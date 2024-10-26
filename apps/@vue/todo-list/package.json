@@ -1,5 +1,5 @@
 {
-  "name": "vue2-todo-list",
+  "name": "@vue/todo-list",
   "private": true,
   "version": "0.0.0",
   "type": "module",
