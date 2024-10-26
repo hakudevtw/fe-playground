@@ -3,5 +3,8 @@
   "workspaces": [
     "apps/**",
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "api":"bun --filter @shared/api start"
+  }
 }

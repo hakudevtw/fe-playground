@@ -1,10 +1,10 @@
 {
-  "name": "@vue/todo-list",
+  "name": "@vue/todos",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "bun --filter @shared/api todo-list & vite",
+    "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },

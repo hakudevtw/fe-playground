@@ -2,10 +2,10 @@
   "name": "@shared/api",
   "private": true,
   "scripts": {
-    "todo-list": "json-server --watch todo-list/db.json"
+    "start": "json-server --watch src/db.json --port 3001"
   },
   "exports": {
-    "./todo-list": "./todo-list/schema.ts"
+    "./todos": "./src/todos.schema.ts"
   },
   "dependencies": {
     "json-server": "0.17.4"
