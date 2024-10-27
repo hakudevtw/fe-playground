@@ -1,10 +1,10 @@
 {
-  "name": "haku-playground",
+  "name": "playground",
   "workspaces": [
     "apps/**",
     "packages/*"
   ],
   "scripts": {
-    "api":"bun --filter @shared/api start"
+    "api": "bun --filter @shared/api start"
   }
 }
