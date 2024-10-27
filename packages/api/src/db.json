@@ -1,27 +1,36 @@
 {
   "todos": [
     {
-      "id": 1,
-      "title": "Learn Vue 3",
+      "id": "1",
+      "title": "Learn Zod",
+      "content": "Learn how to use Zod for validation",
       "completed": false,
-      "userId": 1
+      "status": "active",
+      "due_date": "2023-01-01T00:00:00.000Z",
+      "userId": "1"
     },
     {
-      "id": 2,
+      "id": "2",
+      "title": "Learn GraphQL",
+      "content": "Learn how to use GraphQL",
+      "completed": false,
+      "status": "active",
+      "due_date": "2023-01-01T00:00:00.000Z",
+      "userId": "1"
+    },
+    {
+      "id": "3",
       "title": "Learn TypeScript",
+      "content": "Learn how to use TypeScript",
       "completed": false,
-      "userId": 1
-    },
-    {
-      "id": 3,
-      "title": "Learn Vite",
-      "completed": false,
-      "userId": 1
+      "status": "active",
+      "due_date": "2023-01-01T00:00:00.000Z",
+      "userId": "2"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "John Doe"
     }
   ]
