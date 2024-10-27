@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import Button from "primevue/button";
+import Button from "@/components/ui/button/Button.vue";
 </script>
 
 <template>
   <div>
-    <Button label="Click me" />
+    <Button>Click me</Button>
     <h1 class="text-3xl font-bold underline">Home View</h1>
   </div>
 </template>
