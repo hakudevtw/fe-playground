@@ -9,7 +9,7 @@
         Home
       </router-link>
       <router-link
-        to="/todos"
+        to="/todo-list"
         class="text-gray-500 hover:text-gray-900"
         active-class="text-blue-500 font-bold"
       >

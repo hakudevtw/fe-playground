@@ -1,11 +1,11 @@
 import { createMemoryHistory, createRouter } from "vue-router";
 
 import HomeView from "@/views/HomeView.vue";
-import TodosView from "@/views/TodosView.vue";
+import TodoListView from "@/views/TodoListView.vue";
 
 const routes = [
   { path: "/", component: HomeView },
-  { path: "/todos", component: TodosView },
+  { path: "/todo-list", component: TodoListView },
 ];
 
 const router = createRouter({
