@@ -12,7 +12,7 @@ export default {
 
 <template>
   <Header />
-  <main>
+  <main class="grid place-items-center py-4">
     <slot></slot>
   </main>
   <Footer />
