@@ -1,11 +1,17 @@
 <script setup lang="ts">
-import Button from "@/components/ui/button/Button.vue";
+import TodoList from "@/components/todo-list/TodoList.vue";
+import { ref } from "vue";
+
+const todos = ref(["todo1", "todo2", "todo3"]);
 </script>
 
 <template>
-  <div>
-    <Button>Click me</Button>
-    <h1 class="text-3xl font-bold underline">Home View</h1>
+  <div class="grid grid-cols-2 gap-4 h-full">
+    <div></div>
+    <TodoList @bar="(t) => {}" />
+    <ul>
+      <li v-for="(todo, index) in todos">{{ todo }}</li>
+    </ul>
   </div>
 </template>
 

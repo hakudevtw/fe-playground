@@ -12,7 +12,7 @@ export default {
 
 <template>
   <Header />
-  <main class="grid place-items-center py-4">
+  <main class="p-4 w-11/12 mx-auto flex-grow">
     <slot></slot>
   </main>
   <Footer />
