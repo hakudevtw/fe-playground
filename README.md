@@ -2,7 +2,7 @@
 
 ## Projects
 
-### @vue/todo-list (vue@2)
+### @vue/todo-list (options api)
 
 ### @react/?
 
