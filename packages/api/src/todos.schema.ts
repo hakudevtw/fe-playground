@@ -9,6 +9,7 @@ export const Todo = z.object({
   content: z.optional(z.string()),
   status: Status,
   due_date: z.optional(z.date()),
+  created_at: z.date(),
   userId: z.string(),
 });
 export type Todo = z.infer<typeof Todo>;
