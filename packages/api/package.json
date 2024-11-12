@@ -1,5 +1,6 @@
 {
   "name": "@shared/api",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "json-server --watch src/db.json --port 3001"
